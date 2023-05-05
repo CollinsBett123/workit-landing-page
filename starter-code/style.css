@@ -42,6 +42,14 @@ h3 {
   border: 1px solid hsl(150, 100%, 63%);
 }
 
+.info-box .number {
+  padding: .5rem 1.2rem;
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  border: 1px solid hsl(273, 85%, 13%);
+  border-radius: 50%;
+}
+
 /* Header Styling */
 header {
   position: relative;
@@ -103,11 +111,29 @@ nav li a:hover {
 
 /* phone-image */
 
-
-.phone-img {
+/* .phone-img {
   position: absolute;
   height: 30rem;
   width: 45rem;
   top: 60%;
   left: 65vh;
+} */
+
+/* Section Info */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 1rem 5rem;
+}
+
+.container .info-box {
+  width: 25%;
+  text-align: center;
+  color: hsl(273, 85%, 13%);
+}
+
+.container .info-box h3 {
+  margin-bottom: 2rem;
 }
